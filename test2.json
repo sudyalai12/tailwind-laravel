@@ -1,0 +1,38 @@
+{
+    "settings": {
+        "display": {
+            "title_text": "Additional Options:",
+            "show_option_price": true,
+            "pre_total_text": "Total Extras: ",
+            "post_total_text": "",
+            "max_length_text_display": false,
+            "check_inventory": false,
+            "variant_available_error": "",
+            "variant_inventory_error": ""
+        },
+        "cart": {
+            "enabled": true,
+            "style": 0,
+            "update_class": "",
+            "update_name": "Update",
+            "cancel_class": "",
+            "cancel_name": "Cancel",
+            "edit_class": "",
+            "edit_name": "Edit Item",
+            "ajax_cart": false,
+            "hide_image": false,
+            "hide_desc": false
+        },
+        "frontend": {
+            "option_price_display_mode": "addtoprice",
+            "option_price_display_class": "bold_option_price_display",
+            "option_price_toggle": true,
+            "dropdown_price_display": "{option} [+{amount}]",
+            "dropdown_empty_value": "-- Choose {option} --",
+            "number_duplicate_names": true,
+            "tooltip_display_mode": "text",
+            "required_message": ""
+        },
+        "plan": "Premium"
+    }
+}

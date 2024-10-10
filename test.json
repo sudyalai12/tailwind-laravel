@@ -1,0 +1,151 @@
+{
+    "settings": {
+        "display": {
+            "title_text": "Additional Options:",
+            "show_option_price": true,
+            "pre_total_text": "Total Extras: ",
+            "post_total_text": "",
+            "max_length_text_display": false,
+            "check_inventory": false,
+            "variant_available_error": "",
+            "variant_inventory_error": ""
+        },
+        "cart": {
+            "enabled": true,
+            "style": 0,
+            "update_class": "",
+            "update_name": "Update",
+            "cancel_class": "",
+            "cancel_name": "Cancel",
+            "edit_class": "",
+            "edit_name": "Edit Item",
+            "ajax_cart": false,
+            "hide_image": false,
+            "hide_desc": false
+        },
+        "frontend": {
+            "option_price_display_mode": "addtoprice",
+            "option_price_display_class": "bold_option_price_display",
+            "option_price_toggle": true,
+            "dropdown_price_display": "{option} [+{amount}]",
+            "dropdown_empty_value": "-- Choose {option} --",
+            "number_duplicate_names": true,
+            "tooltip_display_mode": "text",
+            "required_message": ""
+        },
+        "plan": "Premium"
+    },
+    "option_product": {
+        "option_sets": [
+            {
+                "id": 94573,
+                "internal_name": "S14GT, S18GT Splitter",
+                "options": [
+                    {
+                        "id": 204022,
+                        "type_id": 1,
+                        "type": "dropdown",
+                        "internal_name": "S14GT, S18GT Splitter Type",
+                        "public_name": "Gain",
+                        "additional_info": "",
+                        "affects_pricing": true,
+                        "required": true,
+                        "max_size": 0,
+                        "options_values": [
+                            {
+                                "id": 33389990,
+                                "value": "0dB",
+                                "variant": 0,
+                                "handle": "0db",
+                                "variant_title": "",
+                                "price": 0,
+                                "product_handle": null,
+                                "quantity_mode": "DEFAULT",
+                                "product_id": "",
+                                "selected": false,
+                                "filter": "\"\"",
+                                "price_dec": "0.00",
+                                "sequence": 0
+                            },
+                            {
+                                "id": 33389991,
+                                "value": "10dB",
+                                "variant": 0,
+                                "handle": "10db",
+                                "variant_title": "",
+                                "price": 0,
+                                "product_handle": null,
+                                "quantity_mode": "DEFAULT",
+                                "product_id": "",
+                                "selected": false,
+                                "filter": "\"\"",
+                                "price_dec": "0.00",
+                                "sequence": 0
+                            }
+                        ],
+                        "conditions": []
+                    },
+                    {
+                        "id": 1268024,
+                        "type_id": 1,
+                        "type": "dropdown",
+                        "internal_name": "Connectors - Limited Female",
+                        "public_name": "Connectors (Female)",
+                        "additional_info": "",
+                        "affects_pricing": true,
+                        "required": true,
+                        "max_size": 0,
+                        "options_values": [
+                            {
+                                "id": 33390038,
+                                "value": "N(F)",
+                                "variant": 0,
+                                "handle": "nf",
+                                "variant_title": "",
+                                "price": 0,
+                                "product_handle": null,
+                                "quantity_mode": "DEFAULT",
+                                "product_id": "",
+                                "selected": false,
+                                "filter": "\"\"",
+                                "price_dec": "0.00",
+                                "sequence": 0
+                            },
+                            {
+                                "id": 33390039,
+                                "value": "SMA(F)",
+                                "variant": 0,
+                                "handle": "smaf",
+                                "variant_title": "",
+                                "price": 0,
+                                "product_handle": null,
+                                "quantity_mode": "DEFAULT",
+                                "product_id": "",
+                                "selected": false,
+                                "filter": "\"\"",
+                                "price_dec": "0.00",
+                                "sequence": 0
+                            },
+                            {
+                                "id": 33390040,
+                                "value": "TNC(F)",
+                                "variant": 0,
+                                "handle": "tncf",
+                                "variant_title": "",
+                                "price": 0,
+                                "product_handle": null,
+                                "quantity_mode": "DEFAULT",
+                                "product_id": "",
+                                "selected": false,
+                                "filter": "\"\"",
+                                "price_dec": "0.00",
+                                "sequence": 0
+                            }
+                        ],
+                        "conditions": []
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -8,7 +8,7 @@
                 <a href="{{ route('home') }}"><img class="h-14" src="{{ asset('images/logo.png') }}" alt="logo"></a>
             </div>
 
-            <form class="hidden border border-gray-500 sm:flex shrink items-center h-7" action="">
+            <form class="hidden border border-gray-500 shrink items-center h-7" action="">
                 <input class="h-full w-80 pl-1 focus:outline-none" type="text" name="search" id="search-input">
                 <div class="h-full cursor-pointer px-1 grid place-items-center hover:bg-slate-200">
                     <span class="!text-xl material-symbols-outlined">
@@ -17,27 +17,49 @@
                 </div>
             </form>
 
-            <ul class="flex items-center gap-4">
-                <li class="hidden sm:block"><a href=""><span
-                            class="text-gray-500 !text-xl material-symbols-outlined hover:text-blue-900">login</span></a>
+            <ul class="flex items-center text-sm text-gray-500 border">
+                <li>
+                    <a class="flex items-center px-2 hover:text-blue-900" href="">
+                        <span class="material-symbols-outlined !text-xl">
+                            login
+                        </span>
+                        <span>
+                            Sign In
+                        </span>
+                    </a>
                 </li>
-                <li class="hidden sm:block"><a href=""><span
-                            class="text-gray-500 !text-xl material-symbols-outlined hover:text-blue-900">call</span></a>
+                <li>
+                    <a class="flex items-center px-2 hover:text-blue-900" href="">
+                        <span class="material-symbols-outlined !text-xl">
+                            call
+                        </span>
+                        <span>
+                            Contact Us
+                        </span>
+                    </a>
                 </li>
-                <li class="hidden sm:block"><a href=""><span
-                            class="text-gray-500 !text-xl material-symbols-outlined hover:text-blue-900">shopping_cart</span></a>
+                <li>
+                    <a class="flex items-center px-2 hover:text-blue-900" href="">
+                        <span class="material-symbols-outlined !text-xl">
+                            shopping_cart
+                        </span>
+                        <span>
+                            Cart
+                        </span>
+                    </a>
                 </li>
                 <li id="mobile-menu-button" class="sm:hidden">
                     <a href="javascript:void(0)">
-                        <span class="text-gray-500 !text-xl material-symbols-outlined hover:text-blue-900">
+                        <span class="material-symbols-outlined !text-xl">
                             menu
                         </span>
-                        <span class="!hidden text-gray-500 !text-xl material-symbols-outlined hover:text-blue-900">
+                        <span class="material-symbols-outlined !text-xl">
                             close
                         </span>
                     </a>
                 </li>
             </ul>
+
         </div>
 
         <div class="hidden sm:block">

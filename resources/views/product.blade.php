@@ -566,81 +566,78 @@
         {{-- content --}}
         <div id="content" class="flex-1 bg-white px-4 text-blue-800 text-sm">
             <div class="py-4">
-                <h1 class="text-3xl font-medium mb-2 text-center">We Make GPS Live Inside</h1>
-                <p class="text-center">
-                    We offer GNSS signal availability, whenever, wherever, however your business or application may need
-                    it!
-                    With a product line includes GPS/GNSS antennas, LNA, splitters, line amplifiers, filters, cabling,
-                    and
-                    repeater kits & hoods, we have the expertise to address all of your GNSS signal availability needs.
+                <h1 class="text-3xl font-medium mb-2">APNT Products</h1>
+                <p>
+                    Products supporting Assured PNT (Position, Navigation, Timing). For more information about GPS
+                    Source APNT Systems and Solutions please Contact GPSS.
                 </p>
-                <div class="text-center mt-2">
-                    <button class="bg-orange-500 hover:bg-orange-700 text-white font-medium py-2 px-4">
-                        <a href="/product">View All Products</a>
-                    </button>
-                </div>
             </div>
 
-            <div class="border-b-2 border-gray-500 w:full md:w-1/2 mx-auto">
-            </div>
-
-            <div class="py-4 md:flex md:flex-row flex-col md:space-x-4 space-y-4 md:space-y-0">
-                <div class="md:w-1/2">
-                    <img src="https://www.gpssource.com/cdn/shop/files/US_Army_Stryker_Vehicle_2nd_Cavalry_Regiment_Germany_4_large.jpg?v=1669835457"
-                        alt="" class="w-full">
-                </div>
-                <div class="md:w-1/2 grid place-content-center gap-2">
-                    <h2 class="text-xl text-center md:mt-0 mt-4">Assured Positioning, Navigation & Timing Systems</h2>
-                    <p class="text-center">
-                        Our family of Assured Positioning, Navigation & Timing (APNT) products represents the most
-                        advanced, cost effective and comprehensive solutions available on the market to support
-                        Department of Defense’s GPS modernization efforts.
-                    </p>
-                    <div class="text-center md:mt-0 mt-4">
-                        <button class="bg-orange-500 hover:bg-orange-700 text-white font-medium py-2 px-4">
-                            <a href="">Our APNT Solutions</a>
-                        </button>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+                <div class="bg-white drop-shadow-sm p-4 hover:drop-shadow-lg">
+                    <div class="h-48 w-full">
+                        <img src="https://www.gpssource.com/cdn/shop/products/ED3_front_f2b087f0-fabd-4d3a-86eb-fd96fbbd9fa4_medium.jpg?v=1556740936"
+                            alt="" class="h-full w-full object-cover object-center">
+                    </div>
+                    <div class="mt-4">
+                        <h3 class="text-lg font-medium text-center">
+                            <a class="hover:underline" href="model">Enhanced D3 M-Code PNT Distribution Hub (ED3M)</a>
+                        </h3>
                     </div>
                 </div>
-            </div>
-
-            <div class="py-4 flex md:flex-row flex-col-reverse md:space-x-4 space-y-4 md:space-y-0">
-                <div class="md:w-1/2 grid place-content-center gap-2">
-                    <h2 class="text-xl text-center md:mt-0 mt-4">Military GPS Repeater Kits</h2>
-                    <p class="text-center">
-                        We offer GPS Repeater Kits designed for the military enabling GPS coverage within any ground
-                        vehicle, aircraft, or hanger. This provides Warfighters with satellite connectivity and
-                        situational awareness prior to dismounting a vehicle or exiting an aircraft.
-                    </p>
-                    <div class="text-center md:mt-0 mt-4">
-                        <button class="bg-orange-500 hover:bg-orange-700 text-white font-medium py-2 px-4">
-                            <a href="">Our GPS Repeater Kits</a>
-                        </button>
+                <div class="bg-white drop-shadow-sm p-4 hover:drop-shadow-lg">
+                    <div class="h-48 w-full">
+                        <img src="https://www.gpssource.com/cdn/shop/products/ED3_front_9bb4f8a7-9e30-4db6-825c-f898758383f4_medium.jpg?v=1556740880"
+                            alt="" class="h-full w-full object-cover object-center">
+                    </div>
+                    <div class="mt-4">
+                        <h3 class="text-lg font-medium text-center">
+                            <a class="hover:underline" href="">E-FLO M-Code PNT Distribution Hub (E-FLO-M)</a>
+                        </h3>
                     </div>
                 </div>
-                <div class="md:w-1/2">
-                    <img src="https://www.gpssource.com/cdn/shop/files/Army_-_Soldiers_on_Strykers_4_-_Cropped_large.jpg?v=1614324615"
-                        alt="" class="w-full">
+                <div class="bg-white drop-shadow-sm p-4 hover:drop-shadow-lg">
+                    <div class="h-48 w-full">
+                        <img src="https://www.gpssource.com/cdn/shop/products/SENTRySCOUT2_16b40245-4b86-43d1-aaec-14de701e093a_medium.jpg?v=1556740789"
+                            alt="" class="h-full w-full object-cover object-center">
+                    </div>
+                    <div class="mt-4">
+                        <h3 class="text-lg font-medium text-center">
+                            <a class="hover:underline" href="">SENTRySCOUT APNT System Developer Kit (SS-DK)</a>
+                        </h3>
+                    </div>
                 </div>
-            </div>
-
-            <div class="py-4 md:flex md:flex-row flex-col md:space-x-4 space-y-4 md:space-y-0">
-                <div class="md:w-1/2">
-                    <img src="https://www.gpssource.com/cdn/shop/files/GPS_source_Wireless_Telecomm_2_large.jpg?v=1614324615"
-                        alt="" class="w-full">
+                <div class="bg-white drop-shadow-sm p-4 hover:drop-shadow-lg">
+                    <div class="h-48 w-full">
+                        <img src="https://www.gpssource.com/cdn/shop/products/vcam_clr_2_medium.jpg?v=1556741787"
+                            alt="" class="h-full w-full object-cover object-center">
+                    </div>
+                    <div class="mt-4">
+                        <h3 class="text-lg font-medium text-center">
+                            <a class="hover:underline" href="">VICTORY CSAC Accessory Module (VCAM)</a>
+                        </h3>
+                    </div>
                 </div>
-                <div class="md:w-1/2 grid place-content-center gap-2">
-                    <h2 class="text-xl text-center md:mt-0 mt-4">Commercial GPS Components</h2>
-                    <p class="text-center">
-                        We offer a full line of Commercial GPS signal distribution products, GPS retransmission products
-                        and design services for GPS/GNSS infrastructure. The products are used in a variety of
-                        industries and applications - computer networks, test ranges, telecommunication base systems and
-                        more.
-                    </p>
-                    <div class="text-center md:mt-0 mt-4">
-                        <button class="bg-orange-500 hover:bg-orange-700 text-white font-medium py-2 px-4">
-                            <a href="">Our Commercial GPS Components</a>
-                        </button>
+                <div class="bg-white drop-shadow-sm p-4 hover:drop-shadow-lg">
+                    <div class="h-48 w-full">
+                        <img src="https://www.gpssource.com/cdn/shop/files/MRPA-3A-Horizon-Nulling-Active-Antenna-Bottom-Mount_medium.jpg?v=1697636661"
+                            alt="" class="h-full w-full object-cover object-center">
+                    </div>
+                    <div class="mt-4">
+                        <h3 class="text-lg font-medium text-center">
+                            <a class="hover:underline" href="">MRPA GNSS Active Antenna Bottom Mount (MRPA-3A)</a>
+                        </h3>
+                    </div>
+                </div>
+                <div class="bg-white drop-shadow-sm p-4 hover:drop-shadow-lg">
+                    <div class="h-48 w-full">
+                        <img src="https://www.gpssource.com/cdn/shop/files/MRPA-3SA-Horizon-Nulling-Active-Antenna-Side-Mount_089e70c9-4d5a-4a67-96c2-7a88350ef3de_medium.jpg?v=1694441962"
+                            alt="" class="h-full w-full object-cover object-center">
+                    </div>
+                    <div class="mt-4">
+                        <h3 class="text-lg font-medium text-center">
+                            <a class="hover:underline" href="">MRPA GNSS Active Antenna Side-Mount (MRPA-3SA-SF)</a>
+                        </h3>
                     </div>
                 </div>
             </div>

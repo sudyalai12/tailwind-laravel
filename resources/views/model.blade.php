@@ -12,14 +12,15 @@
 </head>
 
 <body class="bg-slate-100">
+    
     <header class="w-full">
 
-        <div class="w-full max-w-screen-2xl mx-auto bg-white shadow-sm border-b border-gray-300">
+        <div class="w-full bg-white shadow-sm border-b border-gray-500">
 
             <div class="w-full flex justify-between items-center px-4">
 
                 {{-- Header Left Logo --}}
-                <div class="py-1 flex-shrink-0">
+                <div class="flex-shrink-0">
                     <a href="{{ route('home') }}">
                         <img class="h-14"
                             src="https://gpssource.co.in/wp-content/uploads/GPS_Repeater_Tech_Logo-1.jpg"
@@ -103,7 +104,7 @@
 
             </div>
 
-            <div class="hidden sm:block w-full border font-medium text-blue-800">
+            <div class="hidden sm:block w-full font-medium text-blue-800">
                 <ul class="flex text-sm">
 
                     <li>
@@ -566,81 +567,171 @@
         {{-- content --}}
         <div id="content" class="flex-1 bg-white px-4 text-blue-800 text-sm">
             <div class="py-4">
-                <h1 class="text-3xl font-medium mb-2 text-center">We Make GPS Live Inside</h1>
-                <p class="text-center">
-                    We offer GNSS signal availability, whenever, wherever, however your business or application may need
-                    it!
-                    With a product line includes GPS/GNSS antennas, LNA, splitters, line amplifiers, filters, cabling,
-                    and
-                    repeater kits & hoods, we have the expertise to address all of your GNSS signal availability needs.
+                <h1 class="text-3xl font-medium mb-2">Enhanced D3 M-Code PNT Distribution Hub (ED3M)</h1>
+                <p>
                 </p>
-                <div class="text-center mt-2">
+            </div>
+
+            <div class="md:grid grid-cols-7 gap-4">
+                <div class="col-span-3 order-2 md:order-1">
+                    <div class="overflow-hidden">
+
+                        <div class="slideshow-container p-2 w-full border shadow-sm">
+
+                            <div class="relative slideshow flex overflow-hidden p-16">
+                                <div class="slideshow-item w-full flex-shrink-0">
+                                    <img class="w-full h-full object-cover"
+                                        src="https://www.gpssource.com/cdn/shop/products/ED3_front_9bb4f8a7-9e30-4db6-825c-f898758383f4_medium.jpg?v=1556740880"
+                                        alt="Product 1">
+                                </div>
+                                <div class="slideshow-item w-full flex-shrink-0">
+                                    <img class="w-full h-full object-cover"
+                                        src="https://www.gpssource.com/cdn/shop/products/SENTRySCOUT2_16b40245-4b86-43d1-aaec-14de701e093a_medium.jpg?v=1556740789"
+                                        alt="Product 2">
+                                </div>
+                                <div class="slideshow-item w-full flex-shrink-0">
+                                    <img class="w-full h-full object-cover"
+                                        src="https://www.gpssource.com/cdn/shop/products/vcam_clr_2_medium.jpg?v=1556741787"
+                                        alt="Product 3">
+                                </div>
+                                <div class="slideshow-item w-full flex-shrink-0">
+                                    <img src="https://www.gpssource.com/cdn/shop/files/MRPA-3A-Horizon-Nulling-Active-Antenna-Bottom-Mount_medium.jpg?v=1697636661"
+                                        alt="Product 4" class="w-full h-full object-cover">
+                                </div>
+                                <div class="slideshow-item w-full flex-shrink-0">
+                                    <img class="w-full h-full object-cover"
+                                        src="https://www.gpssource.com/cdn/shop/products/SENTRySCOUT2_16b40245-4b86-43d1-aaec-14de701e093a_medium.jpg?v=1556740789"
+                                        alt="Product 2">
+                                </div>
+                                <div class="slideshow-item w-full flex-shrink-0">
+                                    <img class="w-full h-full object-cover"
+                                        src="https://www.gpssource.com/cdn/shop/products/vcam_clr_2_medium.jpg?v=1556741787"
+                                        alt="Product 3">
+                                </div>
+                                <!-- Next and previous buttons -->
+                                <a
+                                    class="prev absolute top-1/2 left-0 cursor-pointer select-none transform -translate-y-1/2 p-2 bg-gray-50 hover:bg-gray-100">&#10094;</a>
+                                <a
+                                    class="next absolute top-1/2 right-0 cursor-pointer select-none transform -translate-y-1/2 p-2 bg-gray-50 hover:bg-gray-100">&#10095;</a>
+                            </div>
+
+                            <div class="thumbnail-container flex justify-start flex-wrap">
+                                <div class="thumbnail-item w-1/5 p-1 cursor-pointer hover:!opacity-100">
+                                    <img class="w-full h-16 object-contain"
+                                        src="https://www.gpssource.com/cdn/shop/products/ED3_front_9bb4f8a7-9e30-4db6-825c-f898758383f4_medium.jpg?v=1556740880"
+                                        alt="Product 1">
+                                </div>
+                                <div class="thumbnail-item w-1/5 p-1 cursor-pointer hover:!opacity-100">
+                                    <img class="w-full h-16 object-contain"
+                                        src="https://www.gpssource.com/cdn/shop/products/SENTRySCOUT2_16b40245-4b86-43d1-aaec-14de701e093a_medium.jpg?v=1556740789"
+                                        alt="Product 2">
+                                </div>
+                                <div class="thumbnail-item w-1/5 p-1 cursor-pointer hover:!opacity-100">
+                                    <img class="w-full h-16 object-contain"
+                                        src="https://www.gpssource.com/cdn/shop/products/vcam_clr_2_medium.jpg?v=1556741787"
+                                        alt="Product 3">
+                                </div>
+                                <div class="thumbnail-item w-1/5 p-1 cursor-pointer hover:!opacity-100">
+                                    <img class="w-full h-16 object-contain"
+                                        src="https://www.gpssource.com/cdn/shop/files/MRPA-3A-Horizon-Nulling-Active-Antenna-Bottom-Mount_medium.jpg?v=1697636661"
+                                        alt="Product 4">
+                                </div>
+                                <div class="thumbnail-item w-1/5 p-1 cursor-pointer hover:!opacity-100">
+                                    <img class="w-full h-16 object-contain"
+                                        src="https://www.gpssource.com/cdn/shop/products/SENTRySCOUT2_16b40245-4b86-43d1-aaec-14de701e093a_medium.jpg?v=1556740789"
+                                        alt="Product 2">
+                                </div>
+                                <div class="thumbnail-item w-1/5 p-1 cursor-pointer hover:!opacity-100">
+                                    <img class="w-full h-16 object-contain"
+                                        src="https://www.gpssource.com/cdn/shop/products/vcam_clr_2_medium.jpg?v=1556741787"
+                                        alt="Product 3">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-span-4 order-1 md:order-2 py-2">
+                    <p>
+                        The Enhanced D3 (ED3M) distributes centralized IS-GPS-153 and MSID messages to up to 8
+                        independent,
+                        unique interfaces. It is designed and qualified for the mounted environment. Supported
+                        clients
+                        include tactical radios, FBCB2/BFT, Laptop/Falconview, MRT's and others.
+                        <br>
+                        <br>
+                        The newest addition to the family of D3 Devices can provide SAASM or M-code protected
+                        GPS.
+                        <br>
+                        <br>
+                        <b>
+                            For Quotes or Ordering, call +1 719-421-7300 or email GPSS-Sales@gd-ms.com today for
+                            product
+                            pricing, available options, questions, or technical support
+                        </b>
+                    </p>
+                    <br>
                     <button class="bg-orange-500 hover:bg-orange-700 text-white font-medium py-2 px-4">
-                        <a href="/product">View All Products</a>
+                        <a href="">Contact Us To Purchase</a>
                     </button>
                 </div>
             </div>
 
-            <div class="border-b-2 border-gray-500 w:full md:w-1/2 mx-auto">
-            </div>
-
-            <div class="py-4 md:flex md:flex-row flex-col md:space-x-4 space-y-4 md:space-y-0">
-                <div class="md:w-1/2">
-                    <img src="https://www.gpssource.com/cdn/shop/files/US_Army_Stryker_Vehicle_2nd_Cavalry_Regiment_Germany_4_large.jpg?v=1669835457"
-                        alt="" class="w-full">
-                </div>
-                <div class="md:w-1/2 grid place-content-center gap-2">
-                    <h2 class="text-xl text-center md:mt-0 mt-4">Assured Positioning, Navigation & Timing Systems</h2>
-                    <p class="text-center">
-                        Our family of Assured Positioning, Navigation & Timing (APNT) products represents the most
-                        advanced, cost effective and comprehensive solutions available on the market to support
-                        Department of Defense’s GPS modernization efforts.
-                    </p>
-                    <div class="text-center md:mt-0 mt-4">
-                        <button class="bg-orange-500 hover:bg-orange-700 text-white font-medium py-2 px-4">
-                            <a href="">Our APNT Solutions</a>
-                        </button>
+            <div class="w-full overflow-hidden mt-2">
+                <ul class="flex gap-2 py-2 border-b-2 border-gray-500">
+                    <li class="">
+                        <a class="tab px-4 py-1 border inline-block bg-gray-300 text-white bg-gray-700"
+                            href="#overview">
+                            Overview
+                        </a>
+                    </li>
+                    <li class="">
+                        <a class="tab px-4 py-1 border inline-block bg-gray-300" href="#specifications">
+                            Specifications
+                        </a>
+                    </li>
+                    <li class="">
+                        <a class="tab px-4 py-1 border inline-block bg-gray-300" href="#downloads">
+                            Downloads
+                        </a>
+                    </li>
+                    <li class="">
+                        <a class="tab px-4 py-1 border inline-block bg-gray-300" href="#faq">
+                            FAQ
+                        </a>
+                    </li>
+                </ul>
+                <div class="py-2">
+                    <div id="overview" class="tab-content">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At soluta laudantium omnis dolorem
+                            consequatur labore excepturi iure ea consectetur, earum possimus optio id laborum nulla
+                            rerum dolor! Eos odit fugiat, error ullam veniam cumque architecto voluptatibus deleniti
+                            quibusdam, accusamus autem at rerum facilis alias eius explicabo ipsum mollitia aut.
+                            Maiores?
+                        </p>
                     </div>
-                </div>
-            </div>
-
-            <div class="py-4 flex md:flex-row flex-col-reverse md:space-x-4 space-y-4 md:space-y-0">
-                <div class="md:w-1/2 grid place-content-center gap-2">
-                    <h2 class="text-xl text-center md:mt-0 mt-4">Military GPS Repeater Kits</h2>
-                    <p class="text-center">
-                        We offer GPS Repeater Kits designed for the military enabling GPS coverage within any ground
-                        vehicle, aircraft, or hanger. This provides Warfighters with satellite connectivity and
-                        situational awareness prior to dismounting a vehicle or exiting an aircraft.
-                    </p>
-                    <div class="text-center md:mt-0 mt-4">
-                        <button class="bg-orange-500 hover:bg-orange-700 text-white font-medium py-2 px-4">
-                            <a href="">Our GPS Repeater Kits</a>
-                        </button>
+                    <div id="specifications" class="hidden tab-content">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat quo sed quaerat ipsum
+                            aperiam provident fugit cupiditate, soluta harum non? Unde sed, similique corporis ad
+                            laudantium voluptate suscipit voluptates nulla eius, quae illo quia delectus minima incidunt
+                            nostrum, doloremque veritatis.
+                        </p>
                     </div>
-                </div>
-                <div class="md:w-1/2">
-                    <img src="https://www.gpssource.com/cdn/shop/files/Army_-_Soldiers_on_Strykers_4_-_Cropped_large.jpg?v=1614324615"
-                        alt="" class="w-full">
-                </div>
-            </div>
-
-            <div class="py-4 md:flex md:flex-row flex-col md:space-x-4 space-y-4 md:space-y-0">
-                <div class="md:w-1/2">
-                    <img src="https://www.gpssource.com/cdn/shop/files/GPS_source_Wireless_Telecomm_2_large.jpg?v=1614324615"
-                        alt="" class="w-full">
-                </div>
-                <div class="md:w-1/2 grid place-content-center gap-2">
-                    <h2 class="text-xl text-center md:mt-0 mt-4">Commercial GPS Components</h2>
-                    <p class="text-center">
-                        We offer a full line of Commercial GPS signal distribution products, GPS retransmission products
-                        and design services for GPS/GNSS infrastructure. The products are used in a variety of
-                        industries and applications - computer networks, test ranges, telecommunication base systems and
-                        more.
-                    </p>
-                    <div class="text-center md:mt-0 mt-4">
-                        <button class="bg-orange-500 hover:bg-orange-700 text-white font-medium py-2 px-4">
-                            <a href="">Our Commercial GPS Components</a>
-                        </button>
+                    <div id="downloads" class="hidden tab-content">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quod ipsa
+                            necessitatibus dolores repellendus dignissimos odio impedit dolore earum velit!
+                        </p>
+                    </div>
+                    <div id="faq" class="hidden tab-content">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, tempora aspernatur quo at
+                            magni qui rerum laboriosam? Quibusdam aspernatur, cumque dolor, consectetur, omnis ipsam
+                            temporibus eaque debitis quam quasi suscipit!
+                        </p>
                     </div>
                 </div>
             </div>
@@ -652,7 +743,8 @@
             <div>
                 <div><b>GPS SOURCE TECHNOLOGIES INC.</b></div>
                 <div><b>Tel: </b><a class="hover:underline" href="">+91 80 7696 7694</a></div>
-                <div><b>Email: </b><a class="hover:underline" href="">sales@gps-repeater.co.in4</a></div>
+                <div><b>Email: </b><a class="hover:underline" href="">sales@gps-repeater.co.in4</a>
+                </div>
             </div>
             <div class="col-span-2 flex gap-2">
                 <a class="hover:underline" href="">Terms & Conditions</a>
